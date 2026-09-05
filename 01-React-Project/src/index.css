@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: lightgray;
+    color: black;
+   
+}
+.card{
+    
+    background-color: brown;
+    border-radius: 10px;
+   margin: 20px;
+   padding: 20px;
+}
+
+.nav{
+    background-color: red;
+    padding: 20px;
+    }
