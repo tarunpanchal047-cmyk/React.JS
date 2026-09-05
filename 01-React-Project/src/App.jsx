@@ -32,6 +32,7 @@ import ContextGrandParent from "./ContextAPI2/ContextGrandParent.jsx";
 import Reducer from "./useReducer/Reducer.jsx"
 import Control from "./Control/Control.jsx";
 import UnControl from "./Control/UnControl.jsx";
+import UseEffect2 from "./useEffect/UseEffect2.jsx";
 
 
 
@@ -83,6 +84,7 @@ const App = () => {
 
 {/* <UseLayoutEffect/> */}
 
+<UseEffect2/>
 
 
 {/* <InlineCSS/> */}
@@ -107,7 +109,7 @@ const App = () => {
 
 
 {/* <Reducer/> */}
-<Control/>
+{/* <Control/> */}
 
 {/* <UnControl/> */}
 
