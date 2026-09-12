@@ -8,10 +8,6 @@
 //? -> Props are immutable and uni-directional.
 
 
-
-
-
-
 import ChildProps from "./ChildProps"
 
 
