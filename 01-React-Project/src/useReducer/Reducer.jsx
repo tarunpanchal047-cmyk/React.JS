@@ -12,6 +12,9 @@
 //^ the variable which state holds the comments and 2nd value is the function which is known as this pacher function.
 
 
+
+
+
 import { useReducer } from 'react'
 
     let intialVal = {
