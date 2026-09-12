@@ -1,3 +1,8 @@
+//! Inline CSS :  -----------
+// -------------------
+//^ 1. inline css means writing styles directly on a jsx element using the style attribute as a javascript object 
+//^ in inline css properties are return in cammel case and the values are return mostly in string. 
+
 import React from 'react'
 
 const InlineCSS = () => {

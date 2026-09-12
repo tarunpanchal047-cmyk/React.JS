@@ -1,3 +1,11 @@
+//! Context API : ----------
+// -------------------
+//^ we can not share the data directly to pass the data directly to middle component we have used content API. 
+//! Steps to create the context API 
+//? 1. Create Context
+//? 2. Context Provider and Providing values 
+//? 3. Use Context 
+
 import ContextChild1 from "./ContextChild1"
 import MyContext from "./MyContext"
 

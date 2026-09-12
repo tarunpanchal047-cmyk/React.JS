@@ -1,3 +1,9 @@
+
+        //! 3. UseCallback
+        //     - it is a react hook that memoizes a function ensuring the same function reference is used until its dependency changes
+
+
+
 import React, { useCallback, useState } from 'react'
 import UseCallbackChild from './UseMemoChild'
 

@@ -1,3 +1,9 @@
+//! Internal CSS : -----------
+// -------------------
+//^ 2. internal CSS : it is defined inside the same file or component using a style tag in jsx
+//^  it is used for small components where css not reused everywhere.
+
+
 import React from 'react'
 
 const InternalCSS = () => {

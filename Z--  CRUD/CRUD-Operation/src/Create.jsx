@@ -16,6 +16,7 @@ const Create = () => {
   }
   async function handleSubmit(e) {
     e.preventDefault()
+    
     let res = await axios.post("http://localhost:3030/users", data)
     if (res) {
       navigate("/")

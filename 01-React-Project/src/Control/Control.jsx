@@ -1,3 +1,8 @@
+//!  Controlled Component : -------------
+// ---------------
+//^ A Controlled Component is a component in which the input element get their value from react state and any changes in the input 
+//^ is handled thorugh even handler like on change.
+
 import { useState } from 'react'
 
 const Control = () => {

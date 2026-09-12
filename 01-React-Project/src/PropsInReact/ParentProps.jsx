@@ -1,3 +1,17 @@
+//! Pros Drilling : --------
+// -----------------
+
+//^ Passing the data from one component to nested child component is known as props drilling.
+//& The disadvantage is props drilling is unnecessary re-rendering of component to avoid this 
+//& unnecessary re-rendering of component we using one hook that is use context(context API).
+
+//? -> Props are immutable and uni-directional.
+
+
+
+
+
+
 import ChildProps from "./ChildProps"
 
 

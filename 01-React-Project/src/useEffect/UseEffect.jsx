@@ -1,35 +1,35 @@
 import React, { Fragment, useEffect, useState } from "react";
 
 const UseEffect = () => {
-//   let [data, setData] = useState([]);
-//   useEffect(function () {
-//     async function fetchData() {
-//       let res = await fetch("https://fakestoreapi.com/products");
-//       let actualRes = await res.json();
-//       setData(actualRes);
-//     }
-//     fetchData();
-//   }, []); // Mounting
+  //   let [data, setData] = useState([]);
+  //   useEffect(function () {
+  //     async function fetchData() {
+  //       let res = await fetch("https://fakestoreapi.com/products");
+  //       let actualRes = await res.json();
+  //       setData(actualRes);
+  //     }
+  //     fetchData();
+  //   }, []); // Mounting
 
-//  // console.log(data)
+  //  // console.log(data)
 
-// useEffect(()=>{
-//   let count = 0
-//   let clearData = setInterval(()=>{
-//     console.log(count)
-//     count++
-//   }, 1000)
-//   return ()=>{
-//     clearInterval(clearData)
-//   }
-// }, [])
+  // useEffect(()=>{
+  //   let count = 0
+  //   let clearData = setInterval(()=>{
+  //     console.log(count)
+  //     count++
+  //   }, 1000)
+  //   return ()=>{
+  //     clearInterval(clearData)
+  //   }
+  // }, [])
 
 
 
-let [count,setCount] = useState(0)
-useEffect(()=>{
-  document.title = `Message ${count}`
-}, [count])
+  let [count, setCount] = useState(0)
+  useEffect(() => {
+    document.title = `Message ${count}`
+  }, [count])
 
 
 
@@ -50,7 +50,7 @@ useEffect(()=>{
         );
       })} */}
 
-<button onClick={()=>setCount(count++)}>Increment</button>
+      <button onClick={() => setCount(count++)}>Increment</button>
 
     </div>
   );

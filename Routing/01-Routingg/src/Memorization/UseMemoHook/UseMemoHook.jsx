@@ -1,3 +1,8 @@
+//!  2. UseMemo
+//             - It is a react hook that memoizes the result of a computation, so it is not recalculated on every render.
+
+
+
 import React, { useMemo, useState } from 'react'
 
 const UseMemoHook = () => {

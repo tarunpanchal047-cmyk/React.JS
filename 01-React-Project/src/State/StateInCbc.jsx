@@ -3,13 +3,13 @@ import React, { Component } from "react";
 export default class StateInCbc extends Component {
     state = {
         count: 0,
-        objName : "abc"
+        objName: "abc"
     }
-    Increment = ()=>{
+    Increment = () => {
         console.log("function is called")
-        this.setState({count:this.state.count + 1})
+        this.setState({ count: this.state.count + 1 })
     }
-    render (){
+    render() {
         // console.log(this.state.count)
         return (
             <div>
