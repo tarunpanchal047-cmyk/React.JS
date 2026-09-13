@@ -1,6 +1,6 @@
 //! Use Reducer : ----------
 // ------------------------
-//^ It is a react Hook which is used to handle state logic.
+//^  Use Reducer is a react Hook which is used to handle state logic.
 //& It accepts two arguments 1st argument is the reducer function and 2nd argument is the initial value.
  
 //! 1. Reducer function : 
