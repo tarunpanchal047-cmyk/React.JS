@@ -12,7 +12,7 @@
 
 //! (ii) Updation phase :
 // ----------------------------
-//^ when ever any state of props of a component changes is an component gets re-rendered this
+//^ whenever any state and props of a component changes is an component gets re-rendered this
 //^ phase comes under updation phase.
 
 //! (iii) Unmounting phase :
@@ -22,7 +22,7 @@
 
 //!  Error Handing :
 // -----------------------------
-//^ In react life cycle is the process where react catchs the errror in component and prevents
+//^  In react life cycle is the process where react catchs the errror in component and prevents
 //^  the entire app form crassing. React introduce this feature in react 16 with error boundries.
 
 

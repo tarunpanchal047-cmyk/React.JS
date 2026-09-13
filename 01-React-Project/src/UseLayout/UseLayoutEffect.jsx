@@ -1,6 +1,6 @@
-//! Use layout effect : --------------------
+//! UseLayout Effect : --------------------
 // ---------------
-//^ -->  Use layout effect is a react hook that runs synchronically after the DOM has been updated, but before the browser paints the screen.
+//^ -->  useLayoutEffect is a react hook that runs synchronically after the DOM has been updated, but before the browser paints the screen.
 //^ - `useLayoutEffect` is a version of `useEffect` that fires **synchronously** after React has performed all DOM mutations, but 
 //  **before the browser paints the updated screen to the user**.
 //^ - `useLayoutEffect` accepts the **exact same arguments** as `useEffect`:
