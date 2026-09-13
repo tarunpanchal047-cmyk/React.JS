@@ -7,7 +7,7 @@
 //^ It is the function that decides how state changes. It It accept two argument 1st argu is the current state and 
 //^ 2nd argu is the action and it return a new updated state.
  
-//! 2. Initial state : 
+//! 2. Initial value : 
 //^ It is also known as initial value that oue state should hold. It returns an array which consists two value 1 value is 
 //^ the variable which state holds the comments and 2nd value is the function which is known as this pacher function.
 
