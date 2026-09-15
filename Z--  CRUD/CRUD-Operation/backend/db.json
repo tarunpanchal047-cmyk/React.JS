@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "abc",
+      "email": "updated.thomas@example.com",
+      "name": "123456789009876543",
+      "phone": "901-234-5678",
+      "website": "danielthomas.io"
+    },
+    {
+      "id": "2",
+      "username": "mia_hernandez",
+      "email": "mia.hernandez@example.com",
+      "name": "Mia Hernandez",
+      "phone": "012-345-6789",
+      "website": "miahernandez.biz"
+    },
+    {
+      "id": "4",
+      "username": "ava_scott",
+      "email": "ava.scott@example.com",
+      "name": "Ava Scott",
+      "phone": "234-567-8902",
+      "website": "avascott.co"
+    },
+    {
+      "username": "james_walke",
+      "phone": "345-678-9013",
+      "id": "5"
+    },
+    {
+      "id": "6",
+      "username": "logan_roberts",
+      "email": "logan.roberts@example.com",
+      "name": "Logan Roberts",
+      "phone": "567-890-123509876543",
+      "website": "loganroberts.net"
+    },
+    {
+      "id": "7",
+      "username": "lily_clark",
+      "email": "lily.clark@example.com",
+      "name": "Lily Clark",
+      "phone": "678-901-2346",
+      "website": "lilyclark.biz"
+    },
+    {
+      "username": "ethan_white",
+      "phone": "789-012-3457",
+      "id": "8"
+    },
+    {
+      "username": "12",
+      "phone": "1234567890",
+      "id": "5HDBU-i6R1M"
+    },
+    {
+      "username": "qwertyui",
+      "phone": "0987654321",
+      "id": "nGY-SUe1YQo"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
